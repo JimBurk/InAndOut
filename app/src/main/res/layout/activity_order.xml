@@ -27,6 +27,7 @@
         android:layout_column="0"
         android:layout_gravity="right"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
         android:text="@string/label_double_double"/>
 
     <EditText
@@ -37,5 +38,140 @@
         android:layout_column="1"
         android:layout_gravity="center"
         android:gravity="center"/>
-        >
+
+    <TextView
+        android:id="@+id/cheeseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_cheeseburger"/>
+
+    <EditText
+        android:id="@+id/cheeseEntry"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/friesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_fries"/>
+
+    <EditText
+        android:id="@+id/friesEntry"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/shakesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_shakes"/>
+
+    <EditText
+        android:id="@+id/skakesEntry"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/fountainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="@string/fountain"/>
+
+    <TextView
+        android:id="@+id/smallTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_small"/>
+
+    <EditText
+        android:id="@+id/smallEntry"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/mediumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_small"/>
+
+    <EditText
+        android:id="@+id/mediumEntry"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/largeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_small"/>
+
+    <EditText
+        android:id="@+id/largeEntry"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_row="8"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/order_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/order_button"/>
 </GridLayout>
