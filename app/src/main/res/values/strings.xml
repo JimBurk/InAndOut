@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">In And Out</string>
+
+    <-- order strings -->
+    <string name="header">Place an Order</string>
+    <string name="label_double_double">Double Double\t$3.60</string>
+</resources>
