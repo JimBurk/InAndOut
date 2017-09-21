@@ -2,6 +2,7 @@
     <string name="app_name">In And Out</string>
     <!-- order strings -->
     <string name="header">Place an Order</string>
+    <string name="nothing">0</string>
     <string name="label_double_double">Double Double   $3.60</string>
     <string name="label_cheeseburger">Cheeseburger   $2.15</string>
     <string name="label_fries">French Fries   $ 1.65</string>
@@ -11,4 +12,7 @@
     <string name="label_medium">Medium</string>
     <string name="label_large">Large</string>
     <string name="order_button">Place Order</string>
+    <!-- summary strings -->
+    <string name="label_total">Order Total   $ </string>
+    <string name="new_order_button">Start New Order</string>
 </resources>

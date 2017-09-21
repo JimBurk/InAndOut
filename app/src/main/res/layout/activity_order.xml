@@ -31,13 +31,15 @@
         android:text="@string/label_double_double"/>
 
     <EditText
-        android:id="@+id/doubleDoubleEntry"
+        android:id="@+id/doubleEntry"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_row="1"
         android:layout_column="1"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:inputType="number"
+        android:gravity="center"
+        android:text="@string/nothing"/>
 
     <TextView
         android:id="@+id/cheeseTextView"
@@ -55,8 +57,10 @@
         android:layout_height="40dp"
         android:layout_row="2"
         android:layout_column="1"
+        android:inputType="number"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/nothing"/>
 
     <TextView
         android:id="@+id/friesTextView"
@@ -74,8 +78,10 @@
         android:layout_height="40dp"
         android:layout_row="3"
         android:layout_column="1"
+        android:inputType="number"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/nothing"/>
 
     <TextView
         android:id="@+id/shakesTextView"
@@ -93,8 +99,10 @@
         android:layout_height="40dp"
         android:layout_row="4"
         android:layout_column="1"
+        android:inputType="number"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/nothing"/>
 
     <TextView
         android:id="@+id/fountainTextView"
@@ -122,8 +130,10 @@
         android:layout_height="40dp"
         android:layout_row="6"
         android:layout_column="1"
+        android:inputType="number"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/nothing"/>
 
     <TextView
         android:id="@+id/mediumTextView"
@@ -133,7 +143,7 @@
         android:layout_column="0"
         android:layout_gravity="right"
         android:layout_marginTop="20dp"
-        android:text="@string/label_small"/>
+        android:text="@string/label_medium"/>
 
     <EditText
         android:id="@+id/mediumEntry"
@@ -141,8 +151,10 @@
         android:layout_height="40dp"
         android:layout_row="7"
         android:layout_column="1"
+        android:inputType="number"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/nothing"/>
 
     <TextView
         android:id="@+id/largeTextView"
@@ -152,7 +164,7 @@
         android:layout_column="0"
         android:layout_gravity="right"
         android:layout_marginTop="20dp"
-        android:text="@string/label_small"/>
+        android:text="@string/label_large"/>
 
     <EditText
         android:id="@+id/largeEntry"
@@ -160,8 +172,10 @@
         android:layout_height="40dp"
         android:layout_row="8"
         android:layout_column="1"
+        android:inputType="number"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/nothing"/>
 
     <Button
         android:id="@+id/order_Button"
@@ -173,5 +187,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="120dp"
+        android:onClick="PlaceOrder"
         android:text="@string/order_button"/>
+
 </GridLayout>

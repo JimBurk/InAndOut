@@ -23,34 +23,48 @@ public class Order {
     private static final float TAX_RATE = 0.08f;
 
     public Order() {
+        mDoubleDoubles = 0;
+        mCheeseburgers = 0;
+        mFrenchFries = 0;
+        mShakes = 0;
+        mSmallDrinks = 0;
+        mMediumDrinks = 0;
+        mLargeDrinks = 0;
     }
 
     public void setDoubleDoubles(int doubleDoubles) {
-        mDoubleDoubles = doubleDoubles;
+        if (doubleDoubles >= 0)
+            mDoubleDoubles = doubleDoubles;
     }
 
     public void setCheeseburgers(int cheeseburgers) {
-        mCheeseburgers = cheeseburgers;
+        if (cheeseburgers >= 0)
+            mCheeseburgers = cheeseburgers;
     }
 
     public void setFrenchFries(int frenchFries) {
-        mFrenchFries = frenchFries;
+        if (frenchFries >= 0)
+            mFrenchFries = frenchFries;
     }
 
     public void setShakes(int shakes) {
-        mShakes = shakes;
+        if (shakes >= 0)
+            mShakes = shakes;
     }
 
     public void setSmallDrinks(int smallDrinks) {
-        mSmallDrinks = smallDrinks;
+        if (smallDrinks >= 0)
+            mSmallDrinks = smallDrinks;
     }
 
     public void setMediumDrinks(int mediumDrinks) {
-        mMediumDrinks = mediumDrinks;
+        if (mediumDrinks >= 0)
+            mMediumDrinks = mediumDrinks;
     }
 
     public void setLargeDrinks(int largeDrinks) {
-        mLargeDrinks = largeDrinks;
+        if (largeDrinks >= 0)
+            mLargeDrinks = largeDrinks;
     }
 
     public float calculateSubtotal() {
