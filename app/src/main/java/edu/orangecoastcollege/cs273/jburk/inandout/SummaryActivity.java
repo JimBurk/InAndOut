@@ -14,7 +14,7 @@ public class SummaryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_summary);
 
         TextView mTotalView = (TextView) findViewById(R.id.totalTextView);
-        TextView mReportView = (TextView) findViewById(R.id.totalTextView);
+        TextView mReportView = (TextView) findViewById(R.id.reportTextView);
 
         Intent intentFromMain = getIntent();
 

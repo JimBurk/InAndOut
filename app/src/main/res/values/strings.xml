@@ -14,5 +14,8 @@
     <string name="order_button">Place Order</string>
     <!-- summary strings -->
     <string name="label_total">Order Total   $ </string>
+    <string name="label_items_ordered">Items Ordered</string>
+    <string name="label_subtotal">Subtotal</string>
+    <string name="label_tax">Tax (8%)</string>
     <string name="new_order_button">Start New Order</string>
 </resources>
